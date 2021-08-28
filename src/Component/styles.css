@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.59)),url("../Assets/sls-office3.1e9e26cb.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* width:100%;    */
+}
+
+.banner_heading{
+    height:84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.banner_heading span{
+    font-size:4rem;
+    font-family: Bebas Neue;
+    text-align: center;
+    color:white;    
+    opacity:1;
+}
+
+.underline{
+    background: #CA0017 0% 0% no-repeat padding-box;
+    width: 20rem;
+    height: 2px;
+    background-color: #ff4a57;
+    margin: 1rem auto;
+}
+
+
+.banner_subheading span{
+    font-size: 1rem;
+    color:white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.scroll_icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.scroll_icon span{
+    font-size: .8rem;
+    color:rgba(175, 169, 169, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar  */
+
+.bg_repeat{
+    background-color: rgb(0,48,136);
+    padding-top: 1rem;
+}
+
+#navbarNav{
+    padding-top:1rem;
+    padding:2rem;
+}
+
+.nav_list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link{
+    color:white;
+    font-size:13px;
+    font-family: Urbanist;
+
+}
+
+/* carousel 1 */
+    
+.carousel_box{
+    height:80vh;
+    background-color: rgb(0,48,136);
+    color:white;
+}
+
+.carousel{
+    height:60vh;
+}
+
+.carousel-item{
+    height:60vh;
+}
+
+.car_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.car_left .span{
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+
+.underline_sm{
+    background: #CA0017 0% 0% no-repeat padding-box;
+    width: 30px;
+    height: 2px;
+    background-color: #ff4a57;
+    margin-right: 3px;
+    border-radius: 10px ;
+
+}
+.underline_xsm{
+    background: #CA0017 0% 0% no-repeat padding-box;
+    width: 5px;
+    height: 2px;
+    background-color: #ff4a57;
+    border-radius: 10px ;
+}
+
+.car_left_sub{
+    padding-top: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+.car_left_sub span{
+    font-size: 13px;
+    font-family:Urbanist;
+    font-weight: 500;
+}
+
+.car_left_sublist{
+    font-size: 11px;
+    font-family:Urbanist;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height:24px;
+}
+
+.car_left_sublist span{
+    font-size: 11px;
+    font-family:Urbanist;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+/* car_right grid  */
+
+.containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . . . . . . . ."
+      ". . . . . . . . . . . ."
+      ". . staff staff staff staff staff staff . . . ."
+      ". . staff staff staff staff staff staff . . . ."
+      ". . staff staff staff staff staff staff icon2 icon2 icon2 icon2"
+      ". . staff staff staff staff staff staff icon2 icon2 icon2 icon2"
+      ". . staff staff staff staff staff staff icon2 icon2 icon2 icon2"
+      ". . staff staff staff staff staff staff icon2 icon2 icon2 icon2"
+      "active_proj active_proj active_proj active_proj icon icon icon icon business_vertical business_vertical business_vertical business_vertical"
+      "active_proj active_proj active_proj active_proj icon icon icon icon business_vertical business_vertical business_vertical business_vertical"
+      "active_proj active_proj active_proj active_proj icon icon icon icon business_vertical business_vertical business_vertical business_vertical"
+      "active_proj active_proj active_proj active_proj icon icon icon icon business_vertical business_vertical business_vertical business_vertical";
+  }
+  
+.active_proj { 
+    grid-area: active_proj;
+    background: rgb(255, 255, 255);
+ }
+
+
+.icon { 
+    grid-area: icon;
+    border-bottom: 2px solid white ;
+}
+
+.icon img{
+    display:block;
+    margin:auto;
+}
+  
+.business_vertical { grid-area: business_vertical; }
+  
+.icon2 { 
+        grid-area: icon2; 
+        background: rgb(202,1,22);
+   }
+  
+.staff { grid-area: staff; }
+
+
+/* Carousel_2 */
+.carousel_box2{
+    height:115vh;
+    background-color: rgb(0,48,136);
+    color:white;
+}
+
+.carousel_2{
+    display: flex;
+}
+
+.line_xsm{
+    position:relative;
+    background: #CA0017 0% 0% no-repeat padding-box;
+    width: 4px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.line_xxsm{
+    position:relative;
+    background: #CA0017 0% 0% no-repeat padding-box;
+    width: 3px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.man_computer{
+    padding-left:2.2rem;
+}
+
+.research{
+    position:relative;
+    bottom:56px;
+    left:0px;
+}
+
+
+/* CAROSEL 3 */
+.carousel_box3{
+    height:80vh;    
+}
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    padding-top:5rem;
+}
+
+.portfolio.span{
+    font-weight: ;
+}
+
+.blueicons{
+    padding-top: 3rem;
+}
+
+.blueicons div{
+    justify-content: center;
+    align-items: left;
+    padding:25px;
+}
+
+.blueicons div span{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.blueicons_img{
+    height:4rem;
+    max-height: 4rem;
+    max-width: 4rem;
+    max-width: fit-content;
+}
+
+
+/* SECTION_4 */
+
+.sec_4 {
+    height:30vh;
+    display: flex;
+
+}
+
+.sec_4 .span{
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+
+.sec_4__1 {
+    background: rgb(0,48,136);
+}
+
+.un_list li {
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #e0e0e08f;
+}
+
+.un_list li:hover{
+    border-left: 3px solid #CA0017;
+    border-radius: 2px;
+    margin-bottom:3px;
+    color:white;
+}
+
+.girl_working{
+    background: #000;
+}
+
+.girl_working_div{
+    position: relative;
+}
+.girl_working_img{
+    width:280px;
+    position: absolute;
+    top:0px;
+    box-shadow: rgba(21,88,212, 0.5) 10px 10px, 
+    rgba(21,88,212, 0.3) 20px 20px, 
+    rgba(21,88,212, 0.2) 30px 30px, 
+    rgba(21,88,212, 0.1) 40px 40px, 
+    rgba(21,88,212, 0.05) 50px 50px;
+}
+
+.girl_working_text{
+    font-family: urbanist;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+/* SECTION 5 */
+
+
+.slider_sec{
+    width: 90%;
+}
+
+
+
+.arrow_btn_back{
+    color: white;
+    border: 1px solid rgb(13, 93, 158);
+    background-color: rgb(0,48,136) ;
+    padding: .4rem ;
+    margin-bottom: .4rem;
+
+}
+
+.arrow_btn_for{
+    color: rgb(0,48,136) ;
+    border: 1px solid rgb(13, 93, 158);
+    background-color: white;
+    padding: .4rem .5rem;
+}
+
+.card{
+    padding: 1rem;
+    border: none;
+}
+
+.card-body{
+    border-left: 1px solid rgb(85, 110, 255);
+    border-right: 1px solid rgb(85, 110, 255);
+    box-shadow: inset 0rem -.2rem rgb(0,48,136);
+}
+
+.card_btn{
+    background: rgb(0,48,136);
+    padding:.3rem;
+    color:white;
+    font-size: 10px;
+    font-family:urbanist;
+    font-weight: 500;
+    border: 1px solid rgb(0,48,136);
+    border-radius: 0px ;
+}
+
+.card-title{
+    margin-top:.3rem;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: .7rem;
+}
+
+.card_more{
+    font-family: Bebas Neue;
+    color:rgb(0,48,136);
+    font-size: 1.2rem;
+}
+
+
+
+
+/* SECTION 6 */
+
+.partner_icons{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.partner_icons img{
+    width:7rem;
+    margin: 1.5rem;
+}
+
+
+
+
+/* FOoTER SECTION */
+
+.footer_sec{
+    padding: 2rem;
+
+}
+
+.footer_sec_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+}
+
+.footer_sec_title img{  
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+}
+
+.footer_sec_title span{
+    padding: 2rem;   
+    font-family: urbanist;
+    font-weight: bold;
+    font-size:.9rem;
+}
+
+.footer_table tr th{
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: Urbanist;
+}
+
+.footer_table tr td{
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: Urbanist;
+}
+
+
+.foot_line{
+    height:.01rem;
+    margin-top: 2rem;
+}
+
+.links span{
+    font-weight:400;
+}
+
+.links i{
+    padding: 1rem 1rem;
+}
+
+
+
+
+
+
+/* UTILITIES */
+.md_title{
+    color:rgb(202,1,22);
+    font-family: Bebas Neue;
+    font-size:2.2rem;
+}
+.md_title_sub{
+    color:rgb(0,48,136);
+    font-family: Bebas Neue;
+    font-size:1.2rem;
+}
+.bg_title{
+    color:rgb(202,1,22);
+    font-family: Bebas Neue;
+    font-size:90px;
+}
+.bg_title_sub{
+    color:rgb(0,48,136);
+    font-family: Bebas Neue;
+    font-size:30px;
+}
+
+.center_h_v{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: .5rem;    */
+}
+
+.heights{
+    height:10rem;
+}
+
+.heights_half{
+    height:5rem;
+}
+
+.font_bebas{
+    font-family: Bebas Neue;
+}
+
+.font_urban{
+    font-family: Urbanist;
+}
+
+.gradient{
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,rgba(0, 0, 0, 0.377)), 
+                color-stop(100%,rgba(0, 0, 0, 0.438)));
+    display: inline-block;
+}
+
+.btn_blue{
+    background-color: rgb(0,48,136);
+}
+
+.back_effect_div{
+    height:260px;
+    width:280px;
+    background-color: #ffffff;
+    position:relative;
+    bottom:-120px;
+    right:-20px;
+}
+
+
+
+
+
+
+
+
+
+/* MEADIA QUERIES */
+
+
+@media (min-width: 1280px) {
+  
+    /* CSS */
+
+    .banner_heading span{
+        font-size: 3.5rem;
+    }
+    .banner_subheading span{
+        font-size: .8rem;
+    }
+    #navbarNav{
+        padding-top:1rem;
+        padding:2rem;
+    }
+  }
+  
+  
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+
+    .banner_heading span{
+        font-size: 2.9rem;
+    }
+    .banner_subheading span{
+        font-size: .8rem;
+    }
+    #navbarNav{
+        padding-top:.8rem;
+        padding:1.5rem;
+    }
+    
+    
+  }
+  
+ 
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+
+    .banner_heading span{
+        font-size: 2rem;
+    }
+    .banner_subheading span{
+        font-size: .7rem;
+    }
+    .md_title{
+        font-size:1.6rem;
+    }
+    .md_title_sub{
+        font-size:.8rem;
+
+    }
+    
+}
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .banner_heading span{
+        font-size: 2rem;
+    }
+    .banner_subheading span{
+        font-size: .7rem;
+    }
+    
+  }
+
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    
+    /* CSS */
+        
+    .banner_heading span{
+        font-size: 1.8rem;
+    }
+    .banner_subheading span{
+        font-size: .6rem;
+    }
+
+
+    
+  }
+
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .banner_heading span{
+        font-size: 1.8rem;
+    }
+    .banner_subheading span{
+        font-size: .6rem;
+    }
+  }
