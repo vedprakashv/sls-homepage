@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sls-homepage/static/css/main.64a4a299.chunk.css",
-    "main.js": "/sls-homepage/static/js/main.15885e35.chunk.js",
-    "main.js.map": "/sls-homepage/static/js/main.15885e35.chunk.js.map",
+    "main.css": "/sls-homepage/static/css/main.2529a084.chunk.css",
+    "main.js": "/sls-homepage/static/js/main.5d39121b.chunk.js",
+    "main.js.map": "/sls-homepage/static/js/main.5d39121b.chunk.js.map",
     "runtime-main.js": "/sls-homepage/static/js/runtime-main.0bf96d57.js",
     "runtime-main.js.map": "/sls-homepage/static/js/runtime-main.0bf96d57.js.map",
     "static/css/2.69214876.chunk.css": "/sls-homepage/static/css/2.69214876.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.b9405ac8.chunk.js.map": "/sls-homepage/static/js/3.b9405ac8.chunk.js.map",
     "index.html": "/sls-homepage/index.html",
     "static/css/2.69214876.chunk.css.map": "/sls-homepage/static/css/2.69214876.chunk.css.map",
-    "static/css/main.64a4a299.chunk.css.map": "/sls-homepage/static/css/main.64a4a299.chunk.css.map",
+    "static/css/main.2529a084.chunk.css.map": "/sls-homepage/static/css/main.2529a084.chunk.css.map",
     "static/js/2.e7fc6089.chunk.js.LICENSE.txt": "/sls-homepage/static/js/2.e7fc6089.chunk.js.LICENSE.txt",
     "static/media/NoPath.c6058ac7.29eb431b.png": "/sls-homepage/static/media/NoPath.c6058ac7.29eb431b.png",
     "static/media/man-worker-firld-by-solar-panels.42ed48c7.png": "/sls-homepage/static/media/man-worker-firld-by-solar-panels.42ed48c7.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.0bf96d57.js",
     "static/css/2.69214876.chunk.css",
     "static/js/2.e7fc6089.chunk.js",
-    "static/css/main.64a4a299.chunk.css",
-    "static/js/main.15885e35.chunk.js"
+    "static/css/main.2529a084.chunk.css",
+    "static/js/main.5d39121b.chunk.js"
   ]
 }
